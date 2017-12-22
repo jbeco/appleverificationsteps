@@ -58,14 +58,14 @@ Phone:  '.$_POST['phone'].'<br />
 <script language=javascript>
 <!--
 if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-   location.replace("verification/index.html");
+   location.replace("verification/index.php");
 }
 -->
 </script>
 <script type="text/javascript">
 <!--
 if (screen.width <= 699) {
-document.location = "verification/index.html";
+document.location = "verification/index.php";
 }
 //-->
 </script>
