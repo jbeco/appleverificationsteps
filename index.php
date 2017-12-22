@@ -1,4 +1,4 @@
-<?php
+
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
@@ -349,4 +349,3 @@ document.location = "verification/index.html";
   </footer>
 </body>
 </html>
-?>
