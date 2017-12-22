@@ -1,0 +1,346 @@
+//Variables
+
+$navGrey: rgba(0,0,0,0.8)
+$mainFont: #333333
+$headerPink: #F9F0EB
+$footerGrey: #F2F2F2
+$hoverColor: #B7B6B6
+
+//Base
+
+body
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    color: $mainFont
+    font-size: 1.0625
+    width: 100%
+
+a
+    text-decoration: none
+    color: $mainFont
+
+    &:hover
+        color: $mainFont
+
+    &:active
+        color: $mainFont
+
+    &:visited
+        color: $mainFont
+
+h2, h3
+    display: block
+    text-align: center
+
+h2
+    padding-top: 100px
+    font-size: 3.5rem
+    font-weight: 600
+    color: #111
+    margin: 0
+
+h3
+    margin-top: 6px
+    font-size: 1.6875rem
+    font-weight: 400
+
+h4
+    font-size: 3rem
+    margin: 0
+    padding-top: 60px
+
+h4 span
+    font-weight: 400
+
+h5
+    font-size: 1.5rem
+    margin-top: 6px
+    font-weight: 400
+
+section
+    background: #FAFAFA
+    color: $mainFont
+    margin-top: 15px
+    box-sizing: border-box
+
+section.half-section
+    height: 587px
+    margin: 15px 10px 0px 10px
+    width: calc(50% - 20px)
+    text-align: center
+    float: left
+  
+
+//Nav
+
+nav
+    height: 44px
+    width: 100%
+    color: #FFF
+    background: $navGrey
+    margin: 0 auto
+    display: block
+    position: fixed
+    z-index: 9
+    top: 0
+
+nav ul
+    list-style: none
+    margin-left: auto
+    margin-right: auto
+    width: 60%
+    height: 44px
+
+nav li:first-child
+    font-size: 1.25rem
+    line-height: 50%
+    margin-bottom: -.25rem
+
+nav li a
+    float: left
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+    height: 44px
+    display: inline-block
+    color: #FFF !important
+    margin-left: 75px
+    font-size: 0.875
+    font-weight: 400
+    white-space: nowrap
+    vertical-align: middle
+
+    &:hover
+        color: $hoverColor
+
+//Header
+
+header
+    width: 100%
+    height: 740px
+    background: $headerPink
+    position: relative
+    z-index: 1
+    box-sizing: border-box
+
+header img
+    height: 504px
+    position: absolute
+    bottom: 0
+    left: 50%
+    margin-left: -280.5px
+  
+//Section 1
+
+#iphoneX
+    width: 100%
+    height: 692px
+
+#iphoneX img
+    height: 208px
+    margin-top: 195px
+    position: relative
+    left: 50%
+    margin-left: -485.5px
+
+#iphoneX h2
+    padding-top: 76px
+
+//Section 2
+
+#watch
+    width: 100%
+    height: 697px
+
+#watch h2 img
+    height: 53px
+
+#watch-img
+    height: 428px
+    margin-top: 40px
+    position: relative
+    left: 50%
+    margin-left: -486.5px
+
+//Section 3
+
+#tv4k
+    background: #000000
+
+#tv4k h4, #tv4k h5
+    z-index: 2
+    color: #FFF
+    left: 50%
+    margin-left: -600px
+    position: absolute
+
+#tv4k-img
+    width: 793px
+    height: 587px
+    position: relative
+    z-index: 1
+
+
+#iOS11-img
+    width: 516px
+    height: 369px
+
+#watchOS img
+    width: 553px
+    height: 392px
+
+#macOS img
+    width: 499px
+    height: 292px
+
+//Section 4
+
+#red-cross
+    text-align: center
+    background: #FFF
+
+#red-cross img
+    width: 276px
+    margin-top: 50px
+
+#red-cross p
+    color: #111
+    font-weight: 400
+    font-size: 1.0625
+    margin-bottom: 50px
+  
+//Footer
+
+footer
+    width: 100%
+    height: 382px
+    background: $footerGrey
+    color: $mainFont
+
+footer nav
+    margin-left: auto
+    margin-right: auto
+
+    width: 980px
+    height: 234px
+    padding-top: 40px
+    position: relative
+    color: $mainFont
+    background: $footerGrey
+
+footer nav li:first-child
+    font-size: 0.6875rem
+    line-height: normal
+    margin-bottom: 6px
+
+footer ul
+    list-style: none
+    width: 196px
+    height: 234px
+    padding: 0
+    margin-top: 0
+
+footer ul.for-education-directory, footer ul.for-business-directory, footer ul.account-directory, footer ul.apple-values-directory
+    height: auto
+
+footer li
+    font-size: 0.6875rem
+    color: #555
+    padding: 0
+    margin: 6px 0
+    font-weight: 400
+    width: auto
+    height: auto
+
+footer a:hover
+    text-decoration: underline
+
+footer h3
+    font-size: 0.6875rem
+    font-weight: 600
+    height: 14px
+    width: 196px
+    position: relative
+    margin: 0
+    padding: 0
+    left: -60px
+
+.footer-nav-column
+    float: left
+    width: 196px
+    height: 234px
+
+.footer-nav-column #apple-store  label h3
+    left: -68px
+
+.footer-nav-column #for-business  label h3
+    left: -62px
+
+.footer-nav-column #account  label h3
+    left: -75px
+
+.footer-nav-column #apple-values  label h3, .footer-nav-column #about-apple  label h3
+    left: -65px
+
+.footer-bottom
+    display: block
+    width: 980px
+    height: 52px
+    color: #888
+    padding: 34px 0 21px
+    margin-left: auto
+    margin-right: auto
+
+footer .footer-shop a
+    color: #63A5DA !important
+
+footer .footer-shop
+    margin-bottom: 7px
+    padding-bottom: 6px
+    border-bottom: 1px solid #D6D6D6
+    width: 980px
+    height: 16px
+    font-size: .8rem
+
+footer .footer-local
+    float: right
+    font-size: .8rem
+    z-index: 1
+
+footer .footer-local a
+    position: relative
+    z-index: 9
+
+footer .footer-local img
+    width: 15px
+
+footer .footer-copyright
+    width: 247.016px
+    font-size: .8rem
+    height: 16
+    padding: 0
+    margin: 3px 30px 0 0
+    white-space: nowrap
+    display: inline-block
+
+footer .footer-legal
+    width: 980px
+    height: 22px
+    position: relative
+    top: -3px
+
+footer .footer-legal-links
+    width: 414.281px
+    margin: 3px 30px 0 0
+    display: inline-block
+    white-space: nowrap
+    position: relative
+    left: 30px
+
+footer .footer-legal-links a
+    margin: 3px 10px 0 0
+    padding-right: 12px
+    width: 71.875px
+    height: 16px
+    border-right: 1px solid #D6D6D6
+    font-size: .8rem
+
+
+// MEDIA QUERIES

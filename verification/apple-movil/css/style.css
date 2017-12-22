@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+nav.dark {
+  background: rgba(0, 0, 0, 1);
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+nav .menu a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-icon {
+  background-color: white;
+  padding: 1px 12px;
+  transition: all .3s ease;
+  
+}
+
+.menu-icon-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-icon-box.open .menu-icon:first-child {
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.menu-icon-box.open .menu-icon:last-child {
+  transform: rotate(-45deg);
+}
+
+.submenu {
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.submenu ul li {
+  border-bottom: 1px solid grey;
+  padding: 15px 0;
+  transition: all .3s ease;
+  opacity: 0;
+}
+
+.submenu.open ul li {
+  animation: cortina 0.2s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cortina {
+  0% {
+    transform: translate(-10px, -10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+  
+}
+
+.submenu.open ul li:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.submenu.open ul li:nth-child(3) {
+  animation-delay: .15s;
+}
+
+.submenu.open ul li:nth-child(3) {
+  animation-delay: .20s;
+}
+
+.submenu.open ul li:nth-child(4) {
+  animation-delay: .25s;
+}
+
+.submenu.open ul li:nth-child(5) {
+  animation-delay: .30s;
+}
+
+.submenu.open ul li:nth-child(6) {
+  animation-delay: .35s;
+}
+
+.submenu.open ul li:nth-child(7) {
+  animation-delay: .40s;
+}
+
+.submenu.open ul li:nth-child(8) {
+  animation-delay: .45s;
+}
+
+.submenu ul {
+  list-style: none;
+  padding: 30px 50px;
+}
+
+nav .submenu {
+  font-size: 18px;
+}
+
+nav .submenu.open {
+  height: calc(100vh - 59px);
+  min-height: 523px;
+}
+
+.submenu li:last-child {
+  border-color: white;
+}
+
+.submenu li:last-child i {
+  margin-right: 10px;
+}
+
+.fa {
+  font-size: 20px;
+}
