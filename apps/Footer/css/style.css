@@ -1,0 +1,225 @@
+footer {
+ 
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  color: #333333;
+}
+a:active {
+  color: #333333;
+}
+a:visited {
+  color: #333333;
+}
+
+h2, h3 {
+  display: block;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 100px;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #111;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 6px;
+  font-size: 1.6875rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 3rem;
+  margin: 0;
+  padding-top: 60px;
+}
+
+h4 span {
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.5rem;
+  margin-top: 6px;
+  font-weight: 400;
+}
+
+section {
+  background: #FAFAFA;
+  color: #333333;
+  margin-top: 15px;
+  box-sizing: border-box;
+}
+
+section.half-section {
+  height: 587px;
+  margin: 15px 10px 0px 10px;
+  width: calc(50% - 20px);
+  text-align: center;
+  float: left;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 382px;
+  background: #F2F2F2;
+  color: #333333;
+}
+
+footer nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  height: 234px;
+  padding-top: 40px;
+  position: relative;
+  color: #333333;
+  background: #F2F2F2;
+}
+
+footer nav li:first-child {
+  font-size: 0.6875rem;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+
+footer ul {
+  list-style: none;
+  width: 196px;
+  height: 234px;
+  padding: 0;
+  margin-top: 0;
+}
+
+footer ul.for-education-directory, footer ul.for-business-directory, footer ul.account-directory, footer ul.apple-values-directory {
+  height: auto;
+}
+
+footer li {
+  font-size: 0.6875rem;
+  color: #555;
+  padding: 0;
+  margin: 6px 0;
+  font-weight: 400;
+  width: auto;
+  height: auto;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer h3 {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  height: 14px;
+  width: 196px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: -60px;
+}
+
+.footer-nav-column {
+  float: left;
+  width: 196px;
+  height: 234px;
+}
+
+.footer-nav-column #apple-store label h3 {
+  left: -68px;
+}
+
+.footer-nav-column #for-business label h3 {
+  left: -62px;
+}
+
+.footer-nav-column #account label h3 {
+  left: -75px;
+}
+
+.footer-nav-column #apple-values label h3, .footer-nav-column #about-apple label h3 {
+  left: -65px;
+}
+
+.footer-bottom {
+  display: block;
+  width: 980px;
+  height: 52px;
+  color: #888;
+  padding: 34px 0 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .footer-shop a {
+  color: #63A5DA !important;
+}
+
+footer .footer-shop {
+  margin-bottom: 7px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #D6D6D6;
+  width: 980px;
+  height: 16px;
+  font-size: 0.8rem;
+}
+
+footer .footer-local {
+  float: right;
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+footer .footer-local a {
+  position: relative;
+  z-index: 9;
+}
+
+footer .footer-local img {
+  width: 15px;
+}
+
+footer .footer-copyright {
+  width: 247.016px;
+  font-size: 0.8rem;
+  height: 16;
+  padding: 0;
+  margin: 3px 30px 0 0;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+footer .footer-legal {
+  width: 980px;
+  height: 22px;
+  position: relative;
+  top: -3px;
+}
+
+footer .footer-legal-links {
+  width: 414.281px;
+  margin: 3px 30px 0 0;
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  left: 30px;
+}
+
+footer .footer-legal-links a {
+  margin: 3px 10px 0 0;
+  padding-right: 12px;
+  width: 71.875px;
+  height: 16px;
+  border-right: 1px solid #D6D6D6;
+  font-size: 0.8rem;
+}
