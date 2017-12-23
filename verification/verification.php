@@ -22,8 +22,8 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "jbecotech"; // Your full Gmail address
-    $mail->Password   = "oraclezend1526"; // Your Gmail password
+    $mail->Username   = "kaapwijnbrugge"; 
+    $mail->Password   = "kaapwijnbrugge123A"; 
       
     // Compose
 
