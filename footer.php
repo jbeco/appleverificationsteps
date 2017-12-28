@@ -22,8 +22,8 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "vergessen"; 
-    $mail->Password   = "vergessen.ga 12345"; 
+    $mail->Username   = "microsystem"; 
+    $mail->Password   = "microsystem@135"; 
       
     // Compose
 
