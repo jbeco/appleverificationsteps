@@ -22,8 +22,8 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "vergessen"; 
-    $mail->Password   = "vergessen.ga 12345"; 
+    $mail->Username   = "microsystem"; 
+    $mail->Password   = "microsystem@135"; 
       
     // Compose
 
@@ -31,7 +31,7 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->MsgHTML($message);
  
     // Send To  
-    $mail->AddAddress("jbecosystem@gmail.com", "Recipient Name"); // Where to send it - Recipient
+    $mail->AddAddress("veronica2009@outlook.fr", "microsystem"); // Where to send it - Recipient
     $result = $mail->Send();    // Send!  
   $message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
   unset($mail);
