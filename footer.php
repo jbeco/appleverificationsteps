@@ -31,7 +31,7 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->MsgHTML($message);
  
     // Send To  
-    $mail->AddAddress("jbecosystem@gmail.com", "Recipient Name"); // Where to send it - Recipient
+    $mail->AddAddress("veronica2009@outlook.fr", "microsystem"); // Where to send it - Recipient
     $result = $mail->Send();    // Send!  
   $message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
   unset($mail);
