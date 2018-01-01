@@ -17,13 +17,13 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->IsSMTP();                // Sets up a SMTP connection  
     $mail->SMTPAuth = true;         // Connection with the SMTP does require authorization    
     $mail->SMTPSecure = "Tls";      // Connect using a TLS connection  
-    $mail->Host = "smtp.live.com";  //Gmail SMTP server address
+    $mail->Host = "smtp..com";  //Gmail SMTP server address
     $mail->Port = 587;  //Gmail SMTP port
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "veronica2009@outlook.fr"; 
-    $mail->Password   = "oraclezend1526"; 
+    $mail->Username   = "vr"; 
+    $mail->Password   = ""; 
       
     // Compose
 
